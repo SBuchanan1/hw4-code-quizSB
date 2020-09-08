@@ -4,6 +4,7 @@ var questions = [
         prompt:"if you want to store local items you have to \n(A) Save it\n\ (B) Stringify it\n\(C) Commit to github",
         answer: "B"
     }
+    
     {
         prompt:"An array is \n(A) A function\n\ (B) A collection of like or similar items\n\ (C) An index",
         answer: "B"
