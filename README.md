@@ -4,5 +4,8 @@ Coming along my journey as a beginning web developer, my experience has been hec
 
 I would love to put in 20+ hours a week outside of class to study but with this cohort being 10-2:30 P.M. and work from 5-3:30 am Monday-Friday, it's much harder to dedicate the time I want to studies.
 I had to reference several websites and YouTube videos to simply start
-one being li src"https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html"
-Though I didn't copy the code verbatim I used a good bit of the code for a guidelines
+one being "https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html"
+Though I didn't copy the code verbatim I used a good bit of the code for a guideline.
+Another video that helped a lot was "https://www.youtube.com/watch?v=QU6z69P5BrU"
+
+It's a bit overwhelming to grasp everything that is being thrown at us. It is a lot like drinking water out of a fire hydrant.
