@@ -11,6 +11,11 @@ var questions = [
       "An array is \n(A) A function\n (B) A collection of like or similar items\n (C) An index",
     answer: "B",
   }
+  [{
+    prompt:
+      "CSS stands for 'Cascading Script Style' \n(A) Hypertext Markdown Language\n\ (B)Hypertext Markup Language\n (C)None of the Above",
+    answer: "B",
+  }]
 ];
 
 let questions = {};
@@ -32,6 +37,13 @@ correct: "B";
   question: " CSS stands for 'Cascading Script Style'";
   choiceA: "Wrong";
   choiceB: "Correct";
+  correct: "B";
+}
+{
+  question: "What does HTML stand for";
+  choiceA: "Wrong";
+  choiceB: "Correct";
+  choiceC: "Wrong";
   correct: "B";
 }
 {
@@ -110,7 +122,11 @@ let score = 0;
 function checkAnswer(answer) {
   if (question[runningQuestionIndex].correct == answer) {
     score++;
-    answerIsCorrect();
-    alert green
+    answerIsCorrect(); alert = "green"
+  } else {
+    answerIsWrong(); alert = "red"
   }
+} if (runningQuestionIndex < lastQuestionIndex) {
+  count = 0;
+  runningQuestion
 }

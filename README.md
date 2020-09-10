@@ -8,7 +8,9 @@ I had to reference several websites and YouTube videos to simply start
 one being "Code Explained 'Multiple Choice Quiz Using Javascript'"
 Though I didn't copy the code verbatim I used a good bit of the code for a guideline.
 
-For the index.html document I referenced and built a structure for my quiz mimicking an 'array' of different codes. I found it easier to pseudocode what I wanted done which was of course include the criteria
+For the index.html document I referenced and structured my quiz mimicking an 'array' of different codes.
+
+In using this assignment the user must be able to click a functioning 'start' button and then user is presented with a question and timer. Once the user clicks on the question, they're then prompted to another question. If the question is answered correctly user receives a "green"alert. Alternatively, if the answer is incorrect the user will receive a "red" alert. Once the game is over, user should be alerted with score and should be able to save they're initials; (If I installed that properly). The javascript should be inserted with the quiz.js file I created which I learned from one of the YouTube videos linked below.
 
 Works Cited
 "https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html"
