@@ -8,9 +8,7 @@ I had to reference several websites and YouTube videos to simply start
 one being "Code Explained 'Multiple Choice Quiz Using Javascript'"
 Though I didn't copy the code verbatim I used a good bit of the code for a guideline.
 
-It's a bit overwhelming to grasp everything that is being thrown at us. It is a lot like drinking water out of a fire hydrant.
-
-I had absolutely no idea how to install a timer in my HTML
+For the index.html document I referenced and built a structure for my quiz mimicking an 'array' of different codes. I found it easier to pseudocode what I wanted done which was of course include the criteria
 
 Works Cited
 "https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html"

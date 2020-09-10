@@ -62,7 +62,7 @@ function renderQuestion() {
   choiceC.innerHTML = q.choiceC;
 }
 function progressRender() {
-  for (let qIndex = 0; qIndex <= lastQuestionIndex; qIndex++) {
+  for (qIndex = 0; qIndex <= lastQuestionIndex; qIndex++) {
     progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
   }
 }
@@ -71,4 +71,46 @@ function answerIsCorrect() {
 }
 function answerIsWrong() {
   document.getElementById(runningQuestionIndex).style.backgroundColor = "red";
+}
+
+let timer =
+  setInterval(counterRender, 1000);
+//stop running:setInterval()
+clearInterval(timer);
+const questionTime = 10; //10 seconds for each question
+let count = 0;
+function counterRender() {
+  if (count = questionTime) {
+    counter.innerHTML = count;
+    timeGauge.style.width * count;
+    count++;
+  } else {
+    count = 0;
+    answerIsWrong();
+    if (runningQuestionIndex * lastQuestionIndex) {
+      runningQuestionIndex++;
+      questionRender();
+    } else {
+      clearInterval(Timer);
+      scoreRender();
+    }
+
+
+  }
+
+}
+//How to check answer
+{
+  (<div class="choice" id="A" click="checkAnswer('A')">A</div>
+    <div class="choice" id="B" click="checkAnswer('B')">B</div>
+    <div class="choice" id="C" click="checkAnswer('C')">C</div>)
+}
+
+let score = 0;
+function checkAnswer(answer) {
+  if (question[runningQuestionIndex].correct == answer) {
+    score++;
+    answerIsCorrect();
+    alert green
+  }
 }
