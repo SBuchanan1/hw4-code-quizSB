@@ -10,7 +10,9 @@ Though I didn't copy the code verbatim I used a good bit of the code for a guide
 
 For the index.html document I referenced and structured my quiz mimicking an 'array' of different codes.
 
-In using this assignment the user must be able to click a functioning 'start' button and then user is presented with a question and timer. Once the user clicks on the question, they're then prompted to another question. If the question is answered correctly user receives a "green"alert. Alternatively, if the answer is incorrect the user will receive a "red" alert. Once the game is over, user should be alerted with score and should be able to save they're initials; (If I installed that properly). The javascript should be inserted with the quiz.js file I created which I learned from one of the YouTube videos linked below.
+In using this assignment the user must be able to click a functioning 'start' button and then user is presented with a question and timer. Once the user clicks on the question, they're then prompted to another question. If the question is answered correctly user receives a "green"alert. Alternatively, if the answer is incorrect the user will receive a "red" alert. Once the game is over, user should be alerted with score and should be able to save their initials; (If I installed that properly). The javascript should be inserted with the quiz.js file I created which I learned from one of the YouTube videos linked below. The questions and all of the javascript should be listed in that file.
+
+I honestly didn't do much styling. Once I created the index.html I spent a lot of time structuring the document. I then moved on to the quiz.js file which is where I created the elements for my quiz. I then added the event listeners.
 
 Works Cited
 "https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html"
