@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #000000;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.custom-box {
+  max-width: 800px;
+  background-color: aqua;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 10px;
+}

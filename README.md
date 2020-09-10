@@ -9,3 +9,5 @@ Though I didn't copy the code verbatim I used a good bit of the code for a guide
 Another video that helped a lot was "https://www.youtube.com/watch?v=QU6z69P5BrU"
 
 It's a bit overwhelming to grasp everything that is being thrown at us. It is a lot like drinking water out of a fire hydrant.
+
+I had absolutely no idea how to install a timer in my htm
