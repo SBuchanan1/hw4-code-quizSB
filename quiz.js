@@ -47,3 +47,28 @@ const timeGauge = document.getElementById("timeGauge");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
+
+array = [a, b, c];
+array.length(3);
+
+let lastQuestionIndex = question.length - 1;
+let runningQuestionIndex = 0;
+
+function renderQuestion() {
+  let q = questions[runningQuestionIndex];
+  question.innerHTML = "<p>" + q.question + "</p>";
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
+}
+function progressRender() {
+  for (let qIndex = 0; qIndex <= lastQuestionIndex; qIndex++) {
+    progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
+  }
+}
+function answerIsCorrect() {
+  document.getElementById(runningQuestionIndex).style.backgroundColor = "green";
+}
+function answerIsWrong() {
+  document.getElementById(runningQuestionIndex).style.backgroundColor = "red";
+}
