@@ -1,3 +1,38 @@
+var questions = [{
+
+  question: "If you want to store local items you ?",
+  answers: {
+    A: "Save it",
+    B: "Stringify it",
+    C: "Commit to Github"
+
+  },
+  {
+  question: " An array is ?",
+  answers: {
+    A: "A function",
+    B: "A collection of like or similar items",
+    C: "An index"
+
+  },
+    {
+  question: "'CSS' stands for 'Cascading Script Style'",
+  answers{
+  A: "True",
+  B: "False"
+
+},
+{
+  question: "Who invented Javascript?",
+  answers: {
+
+  }
+}
+    
+    
+
+  }
+}]
 function generateQuiz(question, quizContainer, resultsContainer, submit)
 
 function showQuestions(questions, quizContainer) {
@@ -8,6 +43,17 @@ function showResults(questions, quizContainer, resultsContainer) {
 
   // code for results goes here
 }
+
+// the questions
+showQuestions(questions, quizContainer);
+
+// When the user clicks submit, show results
+submitButton.onclick = function () {
+  showResults(questions, quizContainer, resultsContainer);
+
+}
+
+
 // // let questions = {};
 // // question: "if you want to store local items you have to ?";
 // // choiceA: "Wrong";
