@@ -1,5 +1,4 @@
 var questions = [{
-
   question: "If you want to store local items you ?",
   answers: {
     A: "Save it",
@@ -7,8 +6,10 @@ var questions = [{
     C: "Commit to Github"
 
   },
+
   correctAnswer: "B"
-  {
+},
+{
   question: " An array is ?",
   answers: {
     A: "A function",
@@ -17,14 +18,15 @@ var questions = [{
 
   },
   correctAnswer: "B"
-    {
+},
+{
   question: "'CSS' stands for 'Cascading Script Style'",
   answers: {
     A: "True",
     B: "False"
-
   },
   correctAnswer: "B"
+},
 {
   question: "Who invented Javascript?",
   answers: {
@@ -54,12 +56,17 @@ var questions = [{
   correctAnswer: "B"
 
 }
-}
-    
-    
 
-  }
-}]
+
+
+];
+
+
+
+
+
+
+
 function generateQuiz(question, quizContainer, resultsContainer, submit)
 
 function showQuestions(questions, quizContainer) {
