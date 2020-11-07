@@ -71,6 +71,18 @@ function generateQuiz(question, quizContainer, resultsContainer, submit)
 
 function showQuestions(questions, quizContainer) {
   // code for questions
+  var output = [];
+  var answers;
+
+  for (var i = 0; i < questions.length; i++) {
+
+    answers = [];
+    // For loop for each available answer to the question
+    for (letter in question[i].answers) {
+
+    }
+  }
+
 
 }
 function showResults(questions, quizContainer, resultsContainer) {
@@ -88,68 +100,39 @@ submitButton.onclick = function () {
 }
 
 
-// // let questions = {};
-// // question: "if you want to store local items you have to ?";
-// // choiceA: "Wrong";
-// // choiceB: "Correct";
-// // choiceC: "Wrong";
-// // correct: "B";
 
-// // {
-// //   question: "An array is";
-// //   choiceA: "Wrong";
-// //   choiceB: "Correct";
-// //   choiceC: "Wrong";
-// //   correct: "B";
-// // }
-
-// // {
-// //   question: " CSS stands for 'Cascading Script Style'";
-// //   choiceA: "Wrong";
-// //   choiceB: "Correct";
-// //   correct: "B";
-// // }
-// // {
-// //   question: "What does HTML stand for";
-// //   choiceA: "Wrong";
-// //   choiceB: "Correct";
-// //   choiceC: "Wrong";
-// //   correct: "B";
-// // }
-// // {
-// }
 
 // //Select All Elements
-// const start = document.getElementById("start");
-// const quiz = document.getElementById("quiz");
-// const question = document.getElementById("question");
-// const counter = document.getElementById("counter");
-// const timeGauge = document.getElementById("timeGauge");
+const start = document.getElementById("start");
+const quiz = document.getElementById("quiz");
+const question = document.getElementById("question");
+const counter = document.getElementById("counter");
+const timeGauge = document.getElementById("timeGauge");
 
-// const choiceA = document.getElementById("A");
-// const choiceB = document.getElementById("B");
-// const choiceC = document.getElementById("C");
+const choiceA = document.getElementById("A");
+const choiceB = document.getElementById("B");
+const choiceC = document.getElementById("C");
 
-// array = [a, b, c];
-// array.length(3);
+array = [a, b, c];
+array.length(3);
 
-// let lastQuestionIndex = question.length - 1;
-// let runningQuestionIndex = 0;
+let lastQuestionIndex = question.length - 1;
+let runningQuestionIndex = 0;
 
-// function renderQuestion() {
-//   let q = questions[runningQuestionIndex];
-//   question.innerHTML = "<p>" + q.question + "</p>";
-//   choiceA.innerHTML = q.choiceA;
-//   choiceB.innerHTML = q.choiceB;
-//   choiceC.innerHTML = q.choiceC;
-// }
-// function progressRender() {
-//   for (qIndex = 0; qIndex <= lastQuestionIndex; qIndex++) {
-//     progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
-//   }
-// }
+function renderQuestion() {
+  let q = questions[runningQuestionIndex];
+  question.innerHTML = "<p>" + q.question + "</p>";
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
+}
+function progressRender() {
+  for (qIndex = 0; qIndex <= lastQuestionIndex; qIndex++) {
+    progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
+  }
+}
 // function answerIsCorrect() {
-//   document.getElementById(runningQuestionIndex).style.backgroundColor = "green";
+document.getElementById(runningQuestsionIndex).style.backgroundColor = "green";
 // }
 // function answerIsWrong() {
 //   document.getElementById(runningQuestionIndex).style.backgroundColor = "red";

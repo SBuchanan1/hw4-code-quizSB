@@ -1,35 +1,66 @@
 // list of all questions, choices, and answers
-var questions = [
-  {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts"
+var questions = [{
+  question: "If you want to store local items you ?",
+  answers: {
+    A: "Save it",
+    B: "Stringify it",
+    C: "Commit to Github"
+
   },
-  {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-    answer: "parentheses"
+
+  correctAnswer: "B"
+},
+{
+  question: " An array is ?",
+  answers: {
+    A: "A function",
+    B: "A collection of like or similar items",
+    C: "An index"
+
   },
-  {
-    title: "Arrays in JavaScript can be used to store ____.",
-    choices: [
-      "numbers and strings",
-      "other arrays",
-      "booleans",
-      "all of the above"
-    ],
-    answer: "all of the above"
+  correctAnswer: "B"
+},
+{
+  question: "'CSS' stands for 'Cascading Script Style'",
+  answers: {
+    A: "True",
+    B: "False"
   },
-  {
-    title:
-      "String values must be enclosed within ____ when being assigned to variables.",
-    choices: ["commas", "curly brackets", "quotes", "parentheses"],
-    answer: "quotes"
+  correctAnswer: "B"
+},
+{
+  question: "Who invented Javascript?",
+  answers: {
+    A: "John Backus",
+    B: "Brendon Eich",
+    C: "Ada Lovelace"
+
   },
-  {
-    title:
-      "A very useful tool used during development and debugging for printing content to the debugger is:",
-    choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-    answer: "console.log"
-  }
+  correctAnswer: "B"
+},
+{
+  question: "Which is NOT a programming language?",
+  answers: {
+    A: "Java",
+    B: "ES Python",
+    C: "Ruby"
+  },
+  correctAnswer: "B"
+},
+{
+  question: "What does 'var' mean?",
+  answers: {
+    A: "variance",
+    B: "variable",
+    C: "vaporware"
+  },
+  correctAnswer: "B"
+
+}
+
+
+
 ];
+
+
+
