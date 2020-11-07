@@ -1,3 +1,4 @@
+var startButton = document.getElementById("start-button");
 var questions = [{
   question: "If you want to store local items you ?",
   answers: {
@@ -132,7 +133,7 @@ function progressRender() {
   }
 }
 // function answerIsCorrect() {
-document.getElementById(runningQuestsionIndex).style.backgroundColor = "green";
+document.getElementById(runningQuestionIndex).style.backgroundColor = "green";
 // }
 // function answerIsWrong() {
 //   document.getElementById(runningQuestionIndex).style.backgroundColor = "red";
