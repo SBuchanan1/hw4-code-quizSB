@@ -1,64 +1,35 @@
+// list of all questions, choices, and answers
 var questions = [
     {
-        question: "If you want to store local items you ?",
-        answers: {
-            A: "Save it",
-            B: "Stringify it",
-            C: "Commit to Github"
-
-        },
-
-        correctAnswer: "B"
+        title: "If you want to store local items you ?",
+        choices: ["save it", "stringify it", "commit to github", "none of the above"],
+        answer: "stringify it"
     },
     {
-        question: " An array is ?",
-        answers: {
-            A: "A function",
-            B: "A collection of like or similar items",
-            C: "An index"
-
-        },
-        correctAnswer: "B"
+        title: "An array is ?",
+        choices: ["a function", "A collection of like or similar items", "an index", "square brackets"],
+        answer: "A collection of like or similar items"
     },
     {
-        question: "'CSS' stands for 'Cascading Script Style'",
-        answers: {
-            A: "True",
-            B: "False"
-        },
-        correctAnswer: "B"
+        title: "CSS stands for ",
+        choices: [
+            "cascading stylesheet",
+            "cascading script style",
+            "concatenating script sheets",
+            "all of the above"
+        ],
+        answer: "cascading stylesheet"
     },
     {
-        question: "Who invented Javascript?",
-        answers: {
-            A: "John Backus",
-            B: "Brendon Eich",
-            C: "Ada Lovelace"
-
-        },
-        correctAnswer: "B"
+        title:
+            "What does 'var' mean?",
+        choices: ["vaporware", "variance", "variable", "none of the above"],
+        answer: "variable"
     },
     {
-        question: "Which is NOT a programming language?",
-        answers: {
-            A: "Java",
-            B: "ES Python",
-            C: "Ruby"
-        },
-        correctAnswer: "B"
-    },
-    {
-        question: "What does 'var' mean?",
-        answers: {
-            A: "variance",
-            B: "variable",
-            C: "vaporware"
-        },
-        correctAnswer: "B"
-
+        title:
+            "Which is NOT a programming language",
+        choices: ["C++", "Java", "Ruby", "ES Python"],
+        answer: "ES Python"
     }
-
-
-
 ];
-
