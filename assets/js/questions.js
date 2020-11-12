@@ -7,7 +7,7 @@ var questions = [
     },
     {
         title: "An array is ?",
-        choices: ["a function", "A collection of like or similar items", "an index", "square brackets"],
+        choices: ["a function", "a collection of like or similar items", "an index", "square brackets"],
         answer: "A collection of like or similar items"
     },
     {
